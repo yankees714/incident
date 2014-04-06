@@ -471,6 +471,7 @@
 				3103424D18F0C67B0058B6BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3103424E18F0C67B0058B6BF /* Build configuration list for PBXNativeTarget "IncidentTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +480,7 @@
 				3103425018F0C67B0058B6BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

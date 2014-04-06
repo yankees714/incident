@@ -14,11 +14,10 @@
 	self = [super init];
 	NSDate * dateOfLastIncident = [[NSUserDefaults standardUserDefaults] objectForKey:@"dateOfLastIncident"];
 	
-	if (NO) {
+	if (dateOfLastIncident) {
 		self.dateOfLastIncident = dateOfLastIncident;
 	} else {
 		self.dateOfLastIncident = [NSDate date];
-		self.dateOfLastIncident = [NSDate dateWithTimeIntervalSinceNow:-4500000];
 	}
 	
 	[self saveDate];
@@ -37,7 +36,7 @@
 	NSTimeInterval secondsElapsed = [now timeIntervalSinceDate:self.dateOfLastIncident];
 	NSInteger daysElapsed = (long)secondsElapsed/86400;
 	
-	return [NSString stringWithFormat:@"%d",daysElapsed];
+	return [NSString stringWithFormat:@"%ld",(long)daysElapsed];
 }
 
 - (void)saveDate{
