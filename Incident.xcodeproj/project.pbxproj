@@ -21,6 +21,9 @@
 		3103423E18F0C67B0058B6BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3103422018F0C67B0058B6BF /* UIKit.framework */; };
 		3103424618F0C67B0058B6BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3103424418F0C67B0058B6BF /* InfoPlist.strings */; };
 		3103424818F0C67B0058B6BF /* IncidentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3103424718F0C67B0058B6BF /* IncidentTests.m */; };
+		3103425318F0D0E40058B6BF /* IncidentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3103425218F0D0E40058B6BF /* IncidentModel.m */; };
+		3103425518F0DB7C0058B6BF /* secretariat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3103425418F0DB7C0058B6BF /* secretariat.mp3 */; };
+		3103425718F0DC610058B6BF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3103425618F0DC610058B6BF /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		3103424318F0C67B0058B6BF /* IncidentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IncidentTests-Info.plist"; sourceTree = "<group>"; };
 		3103424518F0C67B0058B6BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3103424718F0C67B0058B6BF /* IncidentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IncidentTests.m; sourceTree = "<group>"; };
+		3103425118F0D0E40058B6BF /* IncidentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncidentModel.h; sourceTree = "<group>"; };
+		3103425218F0D0E40058B6BF /* IncidentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncidentModel.m; sourceTree = "<group>"; };
+		3103425418F0DB7C0058B6BF /* secretariat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = secretariat.mp3; sourceTree = "<group>"; };
+		3103425618F0DC610058B6BF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3103425718F0DC610058B6BF /* AVFoundation.framework in Frameworks */,
 				3103421F18F0C67B0058B6BF /* CoreGraphics.framework in Frameworks */,
 				3103422118F0C67B0058B6BF /* UIKit.framework in Frameworks */,
 				3103421D18F0C67B0058B6BF /* Foundation.framework in Frameworks */,
@@ -101,6 +109,7 @@
 		3103421B18F0C67B0058B6BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3103425618F0DC610058B6BF /* AVFoundation.framework */,
 				3103421C18F0C67B0058B6BF /* Foundation.framework */,
 				3103421E18F0C67B0058B6BF /* CoreGraphics.framework */,
 				3103422018F0C67B0058B6BF /* UIKit.framework */,
@@ -117,6 +126,9 @@
 				3103422E18F0C67B0058B6BF /* Main.storyboard */,
 				3103423118F0C67B0058B6BF /* IncidentViewController.h */,
 				3103423218F0C67B0058B6BF /* IncidentViewController.m */,
+				3103425418F0DB7C0058B6BF /* secretariat.mp3 */,
+				3103425118F0D0E40058B6BF /* IncidentModel.h */,
+				3103425218F0D0E40058B6BF /* IncidentModel.m */,
 				3103423418F0C67B0058B6BF /* Images.xcassets */,
 				3103422318F0C67B0058B6BF /* Supporting Files */,
 			);
@@ -229,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3103425518F0DB7C0058B6BF /* secretariat.mp3 in Resources */,
 				3103423518F0C67B0058B6BF /* Images.xcassets in Resources */,
 				3103422718F0C67B0058B6BF /* InfoPlist.strings in Resources */,
 				3103423018F0C67B0058B6BF /* Main.storyboard in Resources */,
@@ -251,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3103422D18F0C67B0058B6BF /* IncidentAppDelegate.m in Sources */,
+				3103425318F0D0E40058B6BF /* IncidentModel.m in Sources */,
 				3103423318F0C67B0058B6BF /* IncidentViewController.m in Sources */,
 				3103422918F0C67B0058B6BF /* main.m in Sources */,
 			);
