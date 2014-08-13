@@ -24,6 +24,7 @@
 		3103425318F0D0E40058B6BF /* IncidentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3103425218F0D0E40058B6BF /* IncidentModel.m */; };
 		3103425518F0DB7C0058B6BF /* secretariat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3103425418F0DB7C0058B6BF /* secretariat.mp3 */; };
 		3103425718F0DC610058B6BF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3103425618F0DC610058B6BF /* AVFoundation.framework */; };
+		312D93E2199B004900997700 /* APICommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 312D93E1199B004900997700 /* APICommunicator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		3103425218F0D0E40058B6BF /* IncidentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncidentModel.m; sourceTree = "<group>"; };
 		3103425418F0DB7C0058B6BF /* secretariat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = secretariat.mp3; sourceTree = "<group>"; };
 		3103425618F0DC610058B6BF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		312D93E0199B004900997700 /* APICommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APICommunicator.h; sourceTree = "<group>"; };
+		312D93E1199B004900997700 /* APICommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APICommunicator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 				3103425418F0DB7C0058B6BF /* secretariat.mp3 */,
 				3103425118F0D0E40058B6BF /* IncidentModel.h */,
 				3103425218F0D0E40058B6BF /* IncidentModel.m */,
+				312D93E0199B004900997700 /* APICommunicator.h */,
+				312D93E1199B004900997700 /* APICommunicator.m */,
 				3103423418F0C67B0058B6BF /* Images.xcassets */,
 				3103422318F0C67B0058B6BF /* Supporting Files */,
 			);
@@ -264,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3103422D18F0C67B0058B6BF /* IncidentAppDelegate.m in Sources */,
+				312D93E2199B004900997700 /* APICommunicator.m in Sources */,
 				3103425318F0D0E40058B6BF /* IncidentModel.m in Sources */,
 				3103423318F0C67B0058B6BF /* IncidentViewController.m in Sources */,
 				3103422918F0C67B0058B6BF /* main.m in Sources */,

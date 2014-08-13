@@ -7,6 +7,8 @@
 //
 
 #import "IncidentViewController.h"
+
+#import "APICommunicator.h"
 #import "IncidentModel.h"
 #import <AVFoundation/AVFoundation.h>
 
@@ -40,8 +42,7 @@
 	self.reset.titleLabel.font = [UIFont fontWithName:@"Courier-Bold" size:36.0];
 	self.reset.tintColor = [UIColor redColor];
 	
-	
-
+	[APICommunicator date];
 }
 
 - (void)didReceiveMemoryWarning
